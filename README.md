@@ -2,7 +2,7 @@
 A cache made for snowflake
 
 
-Built on top of the versatile RocksDB, this cache in language 'go' will work seamlessly with 
+Built on top of the versatile RocksDB, this cache in language 'TBD' will work seamlessly with 
 Snowflake. The intent is to make it work transparently with any snowflake instance.
 
 Snowflake should be able to work seamlessly with the Cache.
