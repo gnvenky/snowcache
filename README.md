@@ -15,3 +15,7 @@ which there will be separate task spawned on a read that will happen in a design
 that will help in write intensive scenarios.
 
 The main cache will be coded in 'Python'/ 'Go'
+
+This will also prevent the roundtrips to the Snowflake SAS endpoint.
+The snowflake python connector and jdbc driver will have the capability to lookup cache
+before making a roundtrip to the snowflake instance. 
