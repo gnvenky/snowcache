@@ -14,4 +14,4 @@ There will also be a refresh-ahead strategy built around least recently used blo
 which there will be separate task spawned on a read that will happen in a designated interval
 that will help in write intensive scenarios.
 
-The main cache will be coded in 'GO'
+The main cache will be coded in 'Python'/ 'Go'
