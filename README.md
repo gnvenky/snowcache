@@ -19,3 +19,12 @@ The main cache will be coded in 'Python'/ 'Go'
 This will also prevent the roundtrips to the Snowflake SAS endpoint.
 The snowflake python connector and jdbc driver will have the capability to lookup cache
 before making a roundtrip to the snowflake instance. 
+
+Steps:
+
+1. Augment the snowflake-jdbc driver to pull the request from Redis for any given query_id. Let Redis be a locally running instance.
+
+2. Later. substitute the Redis with a redis backed with rocks-db. the redis dialect to support will only be SET, GET and possibly diagnostics
+for this cache.
+
+3. Test connections and data and publish some benchmarks.
