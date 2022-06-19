@@ -29,4 +29,4 @@ for this cache.
 
 3. Test connections and data and publish some benchmarks.
 
-![image](https://user-images.githubusercontent.com/277965/174487576-9182b029-6219-4540-b110-1d238ce3ca4b.png)
+<img width="649" alt="Screen Shot 2022-06-19 at 10 04 46 AM" src="https://user-images.githubusercontent.com/277965/174487590-052b6cb8-5778-4b9f-8c6a-4700da16cfe5.png">
